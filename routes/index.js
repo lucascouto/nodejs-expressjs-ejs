@@ -13,7 +13,7 @@ router.get("/users", (req, res) => {
 
 router.post("/add-user", (req, res) => {
   users.push(req.body.username);
-  res.redirect("/users");
+  res.redirect("/");
 });
 
 module.exports = router;
