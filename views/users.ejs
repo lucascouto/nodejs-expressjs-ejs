@@ -5,8 +5,9 @@
     <%- include('partials/navigation.ejs') %>
     <main>
         <ul class="users-list">
-            <li class="users-list__item">User 1</li>
-            <li class="users-list__item">User 2</li>
+            <% for (let user of users) { %>
+                <li class="users-list__item"><%= user %></li>
+            <% } %>
         </ul>
     </main>
 <%- include('partials/end.ejs') %>
