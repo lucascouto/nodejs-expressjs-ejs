@@ -1,0 +1,20 @@
+.main-navigation {
+    background-color: antiquewhite;
+}
+
+.main-navigation__items {
+    margin: 0;
+    display: flex;
+    list-style: none;
+    padding: 20px 40px;
+}
+
+.main-navigation__item a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+}
+
+.main-navigation__item a:hover, a:active, a.active {
+    color: #482f86;
+}

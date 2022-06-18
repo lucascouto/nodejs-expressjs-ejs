@@ -1,0 +1,7 @@
+.users-list {
+    list-style: none;
+}
+
+.users-list__item {
+    margin-top: 10px;
+}
